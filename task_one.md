@@ -1,4 +1,4 @@
-#Задача № 1
+# Задача № 1
 
 1. Создайте папку для своего проекта.
 2. Создайте файлы проекта:
@@ -12,4 +12,4 @@
  * Создайте свой первый проект
  * Добавьте название и сохраните
 
- (Пример решения) [https://github.com/Vkiselev1984/GNIVC-Html-course/tree/304d664e4224e2c0e52edb2ff8617848674201de/my_project] 
+(Пример решения)[https://github.com/Vkiselev1984/GNIVC-Html-course/tree/304d664e4224e2c0e52edb2ff8617848674201de/my_project] 

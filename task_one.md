@@ -12,4 +12,4 @@
  * Создайте свой первый проект
  * Добавьте название и сохраните
 
- (Пример решения) [https://github.com/Vkiselev1984/Html-css/tree/99b5270a476a6773a33e05f9480a17ccb9f96d4c/Gnivc_course_html/my_project] 
+ (Пример решения) [https://github.com/Vkiselev1984/GNIVC-Html-course/tree/304d664e4224e2c0e52edb2ff8617848674201de/my_project] 

@@ -1,3 +1,5 @@
+
+
 @font-face {
 	font-family: 'PFDINTEXTCONDPRO';
 	src: url('fonts/PFDINTEXTCONDPRO-MEDIUM.woff');
@@ -7,5 +9,21 @@
 
 body {
     font-family: 'PFDINTEXTCONDPRO';
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.doc_link, .go_link {
+    display: block;
+  }
+
+.navigation > li {
+    display: inline;
+  }
+
+#nav_about {
+  color: red;
+}
+
+#drop_list {
+    display: block;
 }

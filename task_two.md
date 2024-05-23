@@ -14,4 +14,4 @@
 6. Добавьте каждому элементу списка ссылку на одноименный заголовок
 
 
-[Пример решения](https://github.com/Vkiselev1984/GNIVC-Html-course/tree/28b7a825166f0a55f7ceff228dbc70fc88242540/my_project)
+[Пример решения](https://github.com/Vkiselev1984/GNIVC-Html-course/tree/task_2/my_project)

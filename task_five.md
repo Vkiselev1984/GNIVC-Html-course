@@ -10,5 +10,5 @@
 6.  Назначить **PFDINTEXTCONDPRO** только заголовкам и наименованию в шапке страницы
 
 Пример решения можно посмотреть и скачать в
-[[репозитории]{.underline}](https://github.com/Vkiselev1984/GNIVC-Html-course/tree/task_5/my_project)
+[репозитории](https://github.com/Vkiselev1984/GNIVC-Html-course/tree/task_5/my_project)
 GitHub или к материалам урока.

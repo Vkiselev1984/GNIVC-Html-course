@@ -6,4 +6,4 @@
 5. Объедините два блока в один, например, <div class=”header_menu”></div>. Задайте соответствующие стили.
 6. Добавьте блок top_banner. Внесите заголовок <h1></h1>, задайте фоновое изображение и соответствующие стили.
 
-[Пример решения](https://github.com/Vkiselev1984/GNIVC-Html-course/four/304d664e4224e2c0e52edb2ff8617848674201de/my_project)
+[Пример решения](https://github.com/Vkiselev1984/GNIVC-Html-course/tree/task_4/my_project)

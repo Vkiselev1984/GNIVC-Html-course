@@ -190,31 +190,31 @@
 ![](img/image32.png)
 
 **index.html**
- -----------------------------------------------------------------------
- \<!DOCTYPE html>\
++-----------------------------------------------------------------------+
+ \<!DOCTYPE html>
 
- \<html lang="ru">\
+ \<html lang="ru">
 
- \<head>\
+ \<head>
 
- \<meta charset="UTF-8">\
+ \<meta charset="UTF-8">
 
- \<meta name="viewport" content="width=device-width, initial-scale=1.0">\
+ \<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- \<link rel="stylesheet" href="src/style.css">\
+ \<link rel="stylesheet" href="src/style.css">
  
- \<title>Промо</title>\
+ \<title>Промо</title>
 
- \</head>\
+ \</head>
 
- \<body>\
+ \<body>
 
- \<img src="img/logo.svg" style="width: 40px;">Федеральная налоговая служба\
+ \<img src="img/logo.svg" style="width: 40px;">Федеральная налоговая служба
  
- \</body>\
+ \</body>
 
- \</html>\
- -----------------------------------------------------------------------
+ \</html>
++-----------------------------------------------------------------------+
 
 Содержимое html страницы вносится между открывающим и закрывающим тегом body:
 
@@ -252,18 +252,20 @@
 Поместим текст в блочный элемент параграфа, обернув в парный тег **<p></p>**
 
 **index.html**
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="src/style.css">
-</head>
-<body>
-<img src="img/logo.svg" style="width: 40px;">
-<p>Федеральная налоговая служба</p>
-</body>
-</html>
++-----------------------------------------------------------------------+
+ \<!DOCTYPE html>
+ \<html lang="ru">
+ \<head>
+ \<meta charset="UTF-8">
+ \<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ \<link rel="stylesheet" href="src/style.css">
+ \</head>
+ \<body>
+ \<img src="img/logo.svg" style="width: 40px;">
+ \<p>Федеральная налоговая служба</p>
+ \</body>
+ \</html>
++-----------------------------------------------------------------------+
 
 Проверим результат:
 
@@ -288,18 +290,13 @@
     > \<span\>, \<strong\>, \<sub\>, \<sup\>, \<time\>, \<q\>, \<ruby\>,
     > \<u\>, \<var\>
 
-Впрочем, задав свойству **display** значение **inline** мы можем сделать
-любой блочный элемент строчным, а значение **block** наоборот из
-строчного блочный, а с помощью **inline-block** блочно-строчным.
+Впрочем, задав свойству **display** значение **inline** мы можем сделать любой блочный элемент строчным, а значение **block** наоборот из строчного блочный, а с помощью **inline-block** блочно-строчным.
 
-По сравнению **inline** свойством, свойство **inline-block** позволяет
-устанавливать ширину и высоту элемента.
+По сравнению **inline** свойством, свойство **inline-block** позволяет устанавливать ширину и высоту элемента.
 
 Также учитываются верхние и нижние поля/отступы, а при inline - нет.
 
-По сравнению с **display: block**, основное отличие состоит в том, что
-**inline-block** после элемента не добавляется перенос строки, поэтому
-элемент может располагаться рядом с другими элементами.
+По сравнению с **display: block**, основное отличие состоит в том, что **inline-block** после элемента не добавляется перенос строки, поэтому элемент может располагаться рядом с другими элементами.
 
 ![](img/image73.png)
 
@@ -310,30 +307,45 @@
 **index.html**
 
 +-----------------------------------------------------------------------+
-| \<!DOCTYPE html\>\                                                    |
-| \<html lang=\"en\"\>\                                                 |
-| \<head\>\                                                             |
-| \<meta charset=\"UTF-8\"\>\                                           |
-| \<meta name=\"viewport\" content=\"width=device-width,                |
-| initial-scale=1.0\"\>\                                                |
-| \<link rel=\"stylesheet\" href=\"src/style.css\"\>\                   |
-| \</head\>\                                                            |
-| \<body\>\                                                             |
-| \<img src=\"img/logo.svg\" style=\"width: 40px;\"\>\                  |
-| \<p\>Федеральная налоговая служба\</p\>                               |
-|                                                                       |
-| **\<ul\>\                                                             |
-| \<li\>**О ФНС России**\</li\>\                                        |
-| \<li\>**Деятельность**\</li\>\                                        |
-| \<li\>**Сервисы и госуслуги**\</li\>\                                 |
-| \<li\>**Документы**\</li\>\                                           |
-| \<li\>**Открытое ведомство**\</li\>\                                  |
-| \<li\>**Контакты**\</li\>\                                            |
-| \</ul\>**                                                             |
-|                                                                       |
-| \</body\>\                                                            |
-| \</html\>                                                             |
-+=======================================================================+
+\<!DOCTYPE html>
+
+\<html lang="en">
+
+\<head>
+
+\<meta charset="UTF-8">
+
+\<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+\<link rel="stylesheet" href="src/style.css">
+
+\</head>
+
+\<body>
+
+\<img src="img/logo.svg" style="width: 40px;">
+
+\<p>Федеральная налоговая служба</p>
+
+\<ul>
+
+\<li>О ФНС России</li>
+
+\<li>Деятельность</li>
+
+\<li>Сервисы и госуслуги</li>
+
+\<li>Документы</li>
+
+\<li>Открытое ведомство</li>
+
+\<li>Контакты</li>
+
+\</ul>
+
+\</body>
+
+\</html>
 +-----------------------------------------------------------------------+
 
 ![](img/image23.png)

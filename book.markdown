@@ -190,29 +190,31 @@
 ![](img/image32.png)
 
 **index.html**
-\<!DOCTYPE html>
+ -----------------------------------------------------------------------
+ \<!DOCTYPE html>\
 
-\<html lang="ru">
+ \<html lang="ru">\
 
-\<head>
+ \<head>\
 
-\<meta charset="UTF-8">
+ \<meta charset="UTF-8">\
 
-\<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ \<meta name="viewport" content="width=device-width, initial-scale=1.0">\
 
-\<link rel="stylesheet" href="src/style.css">
+ \<link rel="stylesheet" href="src/style.css">\
+ 
+ \<title>Промо</title>\
 
-\<title>Промо</title>
+ \</head>\
 
-\</head>
+ \<body>\
 
-\<body>
+ \<img src="img/logo.svg" style="width: 40px;">Федеральная налоговая служба\
+ 
+ \</body>\
 
-\<img src="img/logo.svg" style="width: 40px;">Федеральная налоговая служба
-
-\</body>
-
-\</html>
+ \</html>\
+ -----------------------------------------------------------------------
 
 Содержимое html страницы вносится между открывающим и закрывающим тегом body:
 

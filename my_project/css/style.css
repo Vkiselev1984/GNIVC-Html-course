@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'PFDINTEXTCONDPRO';
+	src: url('fonts/PFDINTEXTCONDPRO-MEDIUM.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    font-family: 'PFDINTEXTCONDPRO';
+    font-size: 20px;
+}

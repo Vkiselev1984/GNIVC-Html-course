@@ -1,0 +1,513 @@
+/* БЛОК С ОТСТУПАМИ */
+
+.text_block {
+    padding: 0 0 20px;
+    }
+
+/* ЗАГОЛОВОК */
+
+.h2-ham {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+    padding: 12px 0 5px 0;
+    text-align: left;
+    font-weight: 100;
+    border-bottom: solid 7px #0066B3;
+    text-transform: uppercase;
+}
+
+/* ЭЛЕМЕНТ ВЕРСТКИ ФАЙЛ */
+
+.dl_item {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fbfbfb;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+/*     
+    Для дочернего элемента с наименованием задается внутренний отступ: */
+.dl_item div:first-child {
+    padding-right: 20px;
+}
+
+
+/* Стили для ссылки - текстового наименования файла: */
+a {
+    color: #0066B3;
+    transition: all 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Стиль для кнопки */
+.blue_button {
+    display: inline-block;
+    padding: 8px 15px 7px;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #0066B3;
+    border-color: #0066B3;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    min-width: 65px;
+}
+
+
+
+
+.fa,
+.fas {
+    font-size: 25px;
+    color: #0066b3;
+}
+
+
+/* СПИСОК */
+
+section>div>ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+section>div>ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+ section>div>ul li::before {
+    width: 7px;
+    height: 7px;
+    background: #0066B3;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    content: '';
+}
+
+/* СПИСОК ДЛЯ СОДЕРЖАНИЕ В ПРАВОЙ КОЛОНКЕ */
+
+.content_list ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.content_list li {
+    transition: all 0.3s;
+    padding-right: 4px;
+    position: relative;
+    padding-left: 30px !important;
+}
+
+.content_list li:hover {
+    margin-left: 4px;
+    padding-right: 0;
+}
+
+.content_list a {
+    color: #405965;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.content_list li::before {
+    width: 20px !important;
+    height: 20px !important;
+    font-family: 'icomoon' !important;
+    speak: none !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    position: absolute !important;
+    border-radius: 50% !important;
+    border: 1px solid #405965 !important;
+    top: 11px !important;
+    left: 0 !important;
+    content: "\2B9F" !important;
+    transition: all 0.3s !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    transition: all 0.3s !important;
+    background: none !important;
+}
+
+.content_list li:hover a {
+    color: #F15A22;
+    text-decoration: underline;
+}
+
+.content_list li:hover::before {
+    border-color: #F15A22;
+    color: #F15A22;
+}
+
+/* БЛОК ВАЖНО */
+
+.note {
+    background-color: rgba(241, 90, 34, 0.1);
+    background-image: url(https://data.nalog.ru/css/ul2018/img/note.svg);
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    min-height: 80px;
+    padding: 20px 20px 20px 75px;
+    margin: 20px 0;
+}
+
+.clear {
+    clear: both;
+    display: block;
+}
+
+/* БЛОК ВАЖНО НА ГОЛУБОМ ФОНЕ */
+.attention {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+    .attention_blue {
+    background: rgba(0, 102, 179, 0.1);
+    }
+    .attention__icon {
+        margin: 4px 15px 0 0;
+        float: left;
+    }
+    .attention__icon .icon {
+       width: 40px;
+       height: 40px;
+    }
+
+/* INFO-BLOCK */
+
+.info-block {
+    margin-bottom: 40px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.07);
+    transition: all 0.3s;
+}
+
+.info-block:hover {
+	border-radius: 8px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+
+/* СЕРВИС */
+
+.services__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 -10px;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+.services__item {
+	width: 50%;
+	padding: 0 10px;
+	list-style: none;
+	margin-bottom: 20px;
+	/*float: left;*/
+}
+
+.services__wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	/*height: 73px;*/
+	min-height: 73px;
+	height: 100%;
+	padding: 15px;
+	background: #FFFFFF;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.07);
+	border-radius: 2px;
+	transition: all 0.3s;
+	cursor: pointer;
+	color: #405965;
+}
+
+
+	.services__wrapper:hover {
+		border-radius: 8px;
+		padding-left: 19px;
+		padding-right: 11px;
+		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
+	}
+
+
+
+
+.services__wrapper:hover .services__link {
+	color: #f15a22;
+}
+
+.services__wrapper:hover .svg_blue {
+	color: #F15A22;
+	fill: #0066B3;
+	stroke: #0066B3;
+}
+
+
+/* ОРАНЖЕВЫЙ БУЛЛИТ */
+
+.icon_arr {
+    min-height: 70px;
+    padding: 22px 20px 20px 80px;
+    box-shadow: none;
+    background: #fbfbfb;
+    color: #405965;
+    border-radius: 0;
+    float: none;
+    }
+    
+    
+    .with_icon {
+    margin-bottom: 20px;
+    position: relative;
+    }
+    
+    .icon_arr::before {
+    content: "⇢";
+    font-size: 50px;
+    color: white;
+    top: 10px;
+    left: 15px;
+    background-color: #F15A22;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    }
+       
+    .with_icon::before {
+    position: absolute;
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    }
+    /* ССЫЛКА НА СЕРВИС */
+
+    .div_more {
+        background: #fbfbfb;
+        padding: 20px;
+        margin: 0 0 20px;
+        overflow: hidden;
+        }
+        
+        .dl_button {
+        float: right;
+        margin:0px 0px 0px 20px;
+        }
+        
+/* ПЕРЕМЕННЫЕ */
+
+.time1 {
+    background-image: url(https://data.nalog.ru/css/ul2018/img/quaterYear.svg);
+    }
+    
+    .time1, .time2, .time3, .time4 {
+    padding: 5px 0 5px 70px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    min-height: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    }
+
+/* ДВА СТОЛБЦА */
+
+.div_left {
+    float: left;
+    width: calc(50% - 15px);
+    padding-right: 15px;
+    }
+    
+    .div_right {
+    float: left;
+    width: calc(50% - 15px);
+    padding-left: 15px;
+    }
+
+    /* БОЛЬШАЯ ЦИФРА НА СИНЕМ ФОНЕ */
+
+    .number {
+        float: left;
+        margin-top: -2px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        background: #0066b3;
+        color: #fff;
+        font-family: 'Conv_PFDINTEXTCONDPRO-MEDIUM';
+        font-size: 2.5em;
+        line-height: 0.9em;
+        padding: 8px 14px;
+        border-radius: 2px;
+        text-align: center;
+        min-width: 55px;
+    }
+
+    .with_icon p {
+        margin-bottom: 20px;
+    }
+
+    .with_icon2 {
+        margin-bottom: 20px;
+        min-height: 90px;
+        position: relative;
+        padding: 20px 15px 20px 40px;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.07);
+        background: #ffffff;
+        border-radius: 2px;
+    }
+
+    .with_icon2::before {
+        position: absolute;
+        top: 17px;
+        left: 15px;
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 15px;
+        content: "\e92e";
+        color: #f0f0f0;
+    }
+
+/* РАЗДЕЛИТЕЛЬНАЯ ПОЛОСА С ИКОНКОЙ */
+
+.divider {
+	position: relative;
+	margin: 35px 0;
+	color: #CADDF2;
+	width: 100%;
+	overflow: hidden;
+}
+
+.divider__icon {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	display: inline-block;
+	line-height: 35px;
+	border: 1px solid #CADDF2;
+	border-radius: 50%;
+	z-index: 0;
+}
+
+.divider__icon_rounded {
+	background: #CADDF2;
+}
+
+	.divider__icon_rounded .svg_light-grey {
+		color: #ffffff;
+	}
+
+.divider__icon .icon {
+	width: 20px;
+	height: 20px;
+    fill: #ffffff;
+}
+
+.icon > svg {
+    transform: scale(0.55);
+}
+
+.divider::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 40px;
+	height: 1px;
+	background: #CADDF2;
+}
+
+.divider_short::after {
+	width: 30%;
+}
+
+.divider_right {
+	text-align: right;
+}
+
+	.divider_right::after {
+		right: 40px;
+		left: auto;
+	}
+
+.divider_center {
+	text-align: center;
+}
+
+	.divider_center::before {
+		content: '';
+		position: absolute;
+		right: 50%;
+		margin-right: 20px;
+		width: 50%;
+		height: 1px;
+		background: #CADDF2;
+		top: 50%;
+	}
+
+.divider_short.divider_center::before {
+	width: 15%;
+}
+
+.divider_center::after {
+	left: 50%;
+	margin-left: 20px;
+	width: 50%;
+}
+
+/* ОТЦЕНТРИРОВАННЫЙ ТЕКСТ С БОЛЬШОЙ ЦИФРОЙ НА СИНЕМ ФОНЕ */
+
+.large {
+    font-size: 3em;
+    line-height: 1.2em;
+    font-family: 'Conv_PFDINTEXTCONDPRO-MEDIUM';
+    display: inline-block;
+    background: #0066B3;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    }
+
+    .center-ham {
+        text-align: center;
+    }

@@ -1,0 +1,1272 @@
+<h6>БЛОК ВАЖНО</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="note">
+<strong>Жирный текст</strong>
+<p>Описание</p>
+</div> 
+<div class="clear">
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Используется когда необходимо обратить внимание пользователя на что-либо. 
+
+
+<hr />
+
+
+
+<h6>БЛОК ВАЖНО НА ГОЛУБОМ ФОНЕ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="attention attention_blue">
+<div class="attention__icon">
+<span class="icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+<use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#activities-StateControl">
+</use></svg></span>
+</div>
+<div class="attention__text">
+<strong>Жирный текст</strong>
+<p>Описание</p><br />
+</div></div><div class="clear">
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Используется когда необходимо указать важность информации.
+
+
+
+<hr />
+
+
+
+<h6>ТЕКСТ С ИКОНКОЙ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="with_icon">
+<span>Описание</span>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+
+
+<hr />
+
+
+
+
+
+<h6>РАЗДЕЛИТЕЛЬНАЯ ПОЛОСА + ЦИФРА ПО ЦЕНТРУ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="divider divider_center">
+<div class="divider__icon divider__icon_rounded">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="66" height="74"><use class="svg_light-grey" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-StaffInsurance"></use></svg></span>
+</div>
+</div>
+
+<div class="center-ham">
+<strong class="large blue pright10">30 календарных дней</strong>
+<p>Постановка на учет осуществляется в течение <strong>30 календарных дней</strong> с момента государственной регистрации лицензии на пользование участком недр — по месту нахождения участка, на территории соответствующего субъекта РФ. В случае нахождения участка недр не на территории РФ — постановка на учет производится по местонахождению организации (либо физического лица) — пользователя.
+</p>
+</div>
+
+<div class="divider divider_center">
+<div class="divider__icon divider__icon_rounded">
+<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="66" height="74"><use class="svg_light-grey" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-StaffInsurance"></use></svg></span>
+</div>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+
+<hr />
+
+
+
+<h6>СОДЕРЖАНИЕ СТРНИЦЫ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="content_list">
+<div>
+<span>Содержание страницы</span>
+<ul>
+<li><a href="#title1">Пункт меню</a></li>
+<li><a href="#title2"></a></li>
+<li><a href="#title3"></a></li>
+<li><a href="#title4"></a></li>
+</ul>
+</div>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Используется в правой колонке контентной части страницы над сервисами, документами и разьяснениями.
+
+
+<hr />
+
+
+
+<h6>ЗАГОЛОВОК</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<h2 id="t1">Заголовок</h2>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Заголовками должны быть отмечены только элемент из содержания. Причем с содержания должны идти ссылки (якоря) на заголовки. id='title1' - это указания якоря из заголовка.
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<h2 class="h2-ham" id="t1">Заголовок</h2>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Обычно для заголовков блоков используется такой стиль. А обычные для подзаголовков.
+
+
+<hr />
+
+
+<h6>ЗАГОЛОВОК С БОКОВОЙ ЛИНИЕЙ НА ПЛАШКЕ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="with_icon_2">
+<div class="single-new__note">
+Заголовок
+</div>
+<p>Описание</p>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+
+<h6>ОБЕРТКА БЛОКА</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="text_block">
+Содержание блока
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+    
+В этот блок оборачивается блок информации, обычно тот, который находится от одного заголовка до второго. При этом первый заголовок включается в обертываемый блок.
+
+
+<hr />
+
+
+<h6>АБЗАЦ ДЛЯ ОФОРМЛЕНИЯ ТЕКСТА</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<p>Описание</p>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Стандартный тег абзаца. Используется для текстовой информации.
+
+
+<hr />
+
+
+<h6>АБЗАЦ С УВЕЛИЧИНЫМ РАЗМЕРОМ ШРИФТА</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<p class="bigger">Описание</p>
+
+Увеличиный шрифт, когда надо что-то выделить не используя для этого заголовок.
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+
+<h6>ЖИРНЫЙ ТЕКСТ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<strong>Описание</strong>
+
+Используется когда надо выделить что-то жирным шрифтом, в редких случаях.
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+
+<hr />
+
+
+<h6>БОЛЬШАЯ ЦИФРА НА СИНЕМ ФОНЕ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<strong class="large">6%</strong>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Используется когда необходимо выделить какую-либо цифру.
+    
+
+
+<hr />
+
+
+
+
+<h6>ПЕРЕМЕННЫЕ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="div_left">
+<div class="time_title">Отчетный период</div>
+<div class="time1">Квартал</div>
+<div class="time2">Год</div>
+<div class="time3">Полугодие</div>
+<div class="time4">9 месяцев</div>
+</div>
+<div class="div_right">
+<div class="time_title">Налоговый период</div>
+<div class="time1">Квартал</div>
+<div class="time2">Год</div>
+<div class="time3">Полугодие</div>
+<div class="time4">9 месяцев</div>
+</div>
+<div class="clear"></div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Используется для обозначения периодов уплаты налогов или сдачи отчетности.
+
+
+<hr />
+
+
+
+<h6>ССЫЛКА НА СЕРВИС</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="div_more">
+<a href="ссылка" class="blue_button dl_button">Перейти</a>
+Узнать реквизиты, а также сформировать платежное поручение можно с помощью сервиса: 
+<strong> «Узнай свою задолженость»</strong>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Используется когда необходимо выделить в основной контентной части переход на сервис.
+
+
+<hr />
+
+
+<h6>ССЫЛКА НА СЕРВИС ИЗ ПРАВОЙ КОЛОНКИ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<p>
+<a class="services__wrapper" href="ссылка">
+<span class="services__link"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="40">
+<use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#resourses"></use></svg></span>
+<span class="text-icon">Название сервиса</span></span>
+</a>
+</p>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+<h6>СТРЕЛКА</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="with_icon icon_arr">
+<p><strong>Жирный текст</strong></p>
+<p>Описание</p>
+<div class="sp">Скрытый текст если нужно</div>
+<div class="clear"></div>
+</div>
+
+<div class="with_icon icon_arr2"><div>
+<a href="">Без скрытого текста</a></div>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Используется на разводных страницах как переход на другую рубрику
+    
+
+<hr />
+
+
+<h6>СКРЫТЬ/ПОКАЗАТЬ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="sp">
+Скрытый текст
+</div>
+<div class="clear"></div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+Используется когда необходимо скрыть часть содержимого.
+
+
+<hr />
+
+
+<h6>СКРЫТЬ/ПОКАЗАТЬ С ИКОНКОЙ НА ПЛАШКЕ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="info-block">
+<div class="info-block__title js-info-button">
+<span class="icon" style="min-width: 30px;max-width: 30px;">
+<svg width="54.16" height="96.2"><use xlink:href="#ULIP-StaffNDFL" class="svg_blue">
+</use></svg></span> &nbsp; &nbsp; &nbsp; &nbsp;
+<h5>Заголовок</h5>
+<div class="info-block__arrow">
+<span class="icon">
+<svg width="30" height="18.5">
+<use xlink:href="#arrow-down" class="svg_grey"></use>
+</svg>
+</span>
+</div>
+</div>
+<div class="info-block__hidden js-info-block" style="padding: 20px;">Описание</div>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+
+<hr />
+
+
+
+<h6>ВКЛАДКИ</h6>
+
+"Вкладки". Если нужно два таких элемента на странице, то меняем в  id="div-new-tab1" цифрцу 1 на цифру 2 и т.д.
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="tabs_block ptop20" id="div-new-tab1">
+<div class="tabs small2">
+<span style="width:45%" class="active" pid="0"><a href="">Заголовок первой вкладки</a></span>
+<span style="width:55%" pid="1"><a href="">Заголовок второй вкладки</a></span>
+<div class="clear"></div>
+</div>
+<div class="tab-content-panel" style="display: block;">
+<div class="tabs_content">содержимое первой вкладки</div>
+</div>
+<div class="tab-content-panel" style="display: none;">
+<div class="tabs_content">содержимое  второй вкладки</div>
+</div>
+</div>
+
+Если надо вставть в блок "скрытый текст", то ниже этого кода надо вставить скрипт!!!!!!!!!!!!!!!!!!
+<script type="text/javascript"> $(".div_more #div-new-tab1").NewTabs(); </script>
+сооветственно не забываем вставлять нужное значение дива div-new-tab1 или с другой цифрой.
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+
+<hr />
+
+
+
+<h6>ДВА СТОЛБЦА</h6>
+    
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="text_block">
+<p>текст вверху</p>
+<div class="div_left">
+<strong>заголовок столбца</strong>
+<br />Описание
+</div>
+<div class="div_right">
+<strong>заголовок столбца</strong>
+<br />Описание
+</div>
+</div>
+<div class="clear"></div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+
+
+<h6>ДВА СТОЛБЦА С КНОПКАМИ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="row">
+<div class="col col_2 bottommargin-slg">
+<h3>Представление финансовой информации об иностранных клиентах по стандарту ОЭСР</h3>
+<p>В связи с присоединением России к международному автоматическому обмену финансовой информацией по стандарту ОЭСР, российские ОФР обязаны направить сведения о своих иностранных клиентах в ФНС России.</p>
+<a class="button button_blue active bottommargin-lg d-block d-md-none" href="/rn77/related_activities/foreign_clients/inforclient/">Узнать подробнее</a>
+</div>
+    
+<div class="col col_2">
+<h3>Направление информации о клиентах по Федеральному закону от 28.06.2014 №173-ФЗ</h3>
+<p>Если вы являетесь:</p>
+<ul>
+<li>российской ОФР, на которую распространяются требования законодательства иностранного государства о налогообложении иностранных счетов по направлению информации о клиентах — иностранных налогоплательщиках в иностранный налоговый орган</li>
+<li>или ОФР, которая расположена за пределами территории России.</li>
+</ul>
+<p>То вы обязаны направить соответствующую отчетность в ФНС России.</p>
+<a class="button button_blue active bottommargin-lg d-block d-md-none" href="/rn77/related_activities/foreign_clients/173fz/">Узнать подробнее</a>
+</div>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+
+
+<h6>С КНОПКАМИ ПО ГОРИЗОНТАЛИ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="row">
+    <div class="col col_2 bottommargin-slg">
+        <a class="button button_blue active bottommargin-lg d-none d-md-block" href="/rn77/related_activities/foreign_clients/inforclient/">Узнать подробнее</a>
+    </div>
+    <div class="col col_2">
+        <a class="button button_blue active bottommargin-lg d-none d-md-block" href="/rn77/related_activities/foreign_clients/173fz/">Узнать подробнее</a>
+    </div>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+
+<hr />
+
+
+<h6>НУМЕРОВАННЫЙ СПИСОК</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<ol>
+<li><p>Первый</p></li>
+<li><p>Второй</p></li>
+<li><p>Третий</p></li>
+</ol>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+<h6>НЕНУМЕРОВАННЫЙ СПИСОК</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+    
+<ul>
+<li><p>Первый</p></li>
+<li><p>Второй</p></li>
+<li><p>Третий</p></li>
+</ul>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+
+<h6>СПИСОК ДЛЯ ПОШАГОВЫХ ИНСТРУКЦИЙ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="with_icon">
+<span class="number">1</span>
+<p class="bigger2">Заголовок</p>
+Описание
+</div>
+
+<div class="with_icon">
+<span class="number">2</span>
+<p class="bigger2">Заголовок</p>
+Описание
+</div> 
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+    
+<h6>ФАЙЛ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="download">
+<div class="dl_item">
+<div><a href="http://www.nalog.ru">Шаблон заявления по форме, <br />рекомендованной ФНС России</a><br />
+<span class="gray caps file_pdf">pdf (370 кб)</span>
+</div>
+<div><a href=" http://www.nalog.ru" class="blue_button">Загрузить</a></div>
+</div>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+<p>Вместо file_pdf необходимо ставить другие значение в зависимости от типа файла: .file_doc, .file_xls, .file_pdf, .file_zip, .file_type</p>
+
+
+
+<hr />
+
+
+<h6>ТАБЛИЦА</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+    
+<table class="border_table">
+<tbody>
+<tr>
+<th>Заголовок</th>
+<th>Описание</th>
+<th>Описание</th>
+<th>Описание</th>
+</tr>
+<tr>
+<th>Заголовок</th>
+<th>Описание</th>
+<th>Описание</th>
+<th>Описание</th>
+</tr>
+</tbody></table>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+
+
+
+<h6>ФОРМУЛА РАСЧЕТА</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+
+<div class="calc">
+<span class="value">Размер<br /> налога</span>
+<span class="sign1">=</span>
+<span class="value">Ставка<br /> налога</span>
+<span class="sign2">*</span>
+<span class="value">Налоговая<br /> база </span>
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+<hr />
+
+
+
+<h6>ЕЩЕ ВАРИАНТ ФОРМУЛЫ РАСЧЕТА</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="with_icon icon_calc">
+<span class="raschet"><span style="font-size: 18pt;">В</span><sub>р-месяц</sub></span>
+<span style="font-size: 18pt;"><span class="sign1">=</span></span>
+<span class="raschet"><span style="font-size: 18pt;">Ц</span><sub>нефть</sub></span>
+<span style="font-size: 18pt;"><span class="sign2">*</span></span>
+<span class="raschet"><span style="font-size: 18pt;">V</span><sub>нк</sub></span>
+<span style="font-size: 18pt;"><span class="sign3">*</span></span>
+<span style="font-size: 18pt;"><span class="raschet">Р</span></span>
+<span style="font-size: 18pt;"><span class="sign4">*</span></span>
+<span class="raschet"><span style="font-size: 18pt;">К</span><sub>н</sub></span>
+<span style="font-size: 18pt;"><span class="sign5">+</span></span>
+<span class="raschet"><span style="font-size: 18pt;">Ц</span><sub>газ</sub></span>
+<span style="font-size: 18pt;"><span class="sign6">*</span></span>
+<span class="raschet"><span style="font-size: 18pt;">V</span><sub>газ</sub></span>
+<span style="font-size: 18pt;"><span class="sign7">+</span></span>
+<span style="font-size: 18pt;"><span class="raschet">0,95</span></span>
+<span style="font-size: 18pt;"><span class="sign8">*</span></span>
+<span class="raschet"><span style="font-size: 18pt;">Ц</span><sub>пнг</sub></span>
+<span style="font-size: 18pt;"><span class="sign9">*</span></span>
+<span class="raschet"><span style="font-size: 18pt;">V</span><sub>пнг</sub></span>
+<strong class="pointer">Расшифровка формулы</strong>
+<div class="sp" style="display: none;">
+Расшифровка
+</div></div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+<hr />
+
+
+<h6>ПЕРИОД</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="list_item_wide">
+<div class="item_image align_center">
+<strong class="large2 blue">2</strong><br /><strong class="big blue">мес.</strong>
+</div>
+описание периода, что должно произойти в этот период
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+Используется когда необходимо описать период, в который надо что-то сделать.
+
+
+<hr />
+
+
+<h6>ИКОНКИ ДЛЯ ПЕРЕХОДА В ДРУГИЕ РУБРИКИ</h6>
+
+<!-- НАЧАЛО ЭЛЕМЕНТА -->
+
+<div class="row">
+<div class="col col_3">
+<a href="ссылка" target="_self">
+<div class="block-link__item block-link__item_interactive">
+<div class="list-title list-title_block">
+<div class="list-title__icon">
+<span class="icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="73.39" height="73.74">
+<use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#taxLaw"></use>
+</svg>
+</span>
+</div>
+<div class="list-title__text">Заголовок</div>
+</div>
+<div class="block-link__text">Описание
+</div>
+</div>
+</a>
+</div>
+
+<div class="col col_3">
+<a href="ссылка" target="_self">
+<div class="block-link__item block-link__item_interactive">
+<div class="list-title list-title_block">
+<div class="list-title__icon">
+<span class="icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74">
+<use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#taxes"></use>
+</svg>
+</span>
+</div>
+<div class="list-title__text">Заголовок</div>
+</div>
+<div class="block-link__text">Описание
+</div>
+</div>
+</a>
+</div>
+
+<div class="col col_3">
+<a href="ссылка" target="_self">
+<div class="block-link__item block-link__item_interactive">
+<div class="list-title list-title_block">
+<div class="list-title__icon">
+<span class="icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="60.84" height="54">
+<use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#paper-stamp"></use>
+</svg>
+</span>
+</div>
+<div class="list-title__text">Заголовок</div>
+</div>
+<div class="block-link__text">Описание
+</div>
+</div>
+</a>
+</div>
+
+</div>
+
+<!-- ОКОНЧАНИЕ ЭЛЕМЕНТА -->
+
+
+
+
+<hr />
+
+<h6>ИКОНКИ</h6>
+
+<span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#glasses"></use>
+    </svg></span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#phone"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#locked"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lock"></use>
+    </svg></span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#write"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-up"></use>
+    </svg></span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-next"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-prev"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tools"></use>
+    </svg></span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#list"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#avatar"></use>
+    </svg></span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#letter-locked"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#paper"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#subcribe"></use>
+    </svg></span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#rss"></use>
+    </svg></span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#site-map"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#umbrella"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#vk"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#calc"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#calendar"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle-sings"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inn"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lk-key"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lot-question"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#loupe"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#m-02"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#message"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mobile-rub"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ndc"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#paper-arrow"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#paper-pen"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#scale-down"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#scale-up"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#settings"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#symbol"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#wave"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#way"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#filter"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#legal"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#paper-stamp"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#msp"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#business"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#company"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#individual"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#info"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#record"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#registers"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#resourses"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav-prev"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav-prev-double"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav-next"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nav-next-double"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#switch-square"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#switch-line"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close-info"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#open-info"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#flag"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#news"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#zoom"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#warning"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#walk"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#description"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#doc"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#excursion"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#gosuslugi"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#note"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#jpg"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#account"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mfc"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#online-service"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pdf"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#png"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ppt"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tif"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#xls"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#clock"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chat"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#check-list"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#business2"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#zip"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#file"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#msi"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#print"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fullYear"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#halfYear"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#quaterYear"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#goToService"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#simple"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bankpuptcy"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#controlling"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#debt"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#insurance"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#KGN"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#marking"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#NKO"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#personal"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#utilizing"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#trial"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#transferPricing"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#trade"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#taxLaw"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#taxes"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#residents"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#reporting"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#activities-CurrencyControl"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#activities-NoCorruption"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#activities-StateControl"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#activities-Stats"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#activities-UL-IP-Reg"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-FundsMove"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-FNSControl"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-Complaint"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-AllowAccountInfo"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-AddProperty"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-UIN"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-Residency"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-NoInsurance"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-NewForeignAccount"></use>
+    </svg>
+</span><span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl-KBK"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl2-House"></use>
+    </svg>
+</span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl2-Fishing"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl2-Car"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl2-Excise"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl2-WaterWell"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl2-Land"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl2-Income"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fl2-Hunting"></use>
+    </svg>
+</span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-AccountRecord"></use>
+    </svg>
+</span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-Bigs"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-Branches"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-ENVD"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-ESN"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-Gambling"></use>
+    </svg>
+</span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-IPInsurance"></use>
+    </svg>
+</span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-KKT"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-Lottery"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-Mining"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-NDS"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-NoIP"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-NoUL"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-Patent"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-SecurePrint"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-StaffInsurance"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-StaffNDFL"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-TaxationCompare"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-ULInsurance"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ULIP-USN"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#InstallApp"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#video2"></use>
+    </svg>
+</span> <span class="icon" style="padding: 10px"><svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#file_rar"></use>
+    </svg></span>
+<span class="icon" style="padding: 10px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="62.44" height="73.87">
+        <use class="svg_blue" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#npd"></use>
+    </svg>
+</span>
+
+
